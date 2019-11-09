@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0F176DA-396F-D97F-BE35-26EE6AFAEC6C" name="PRESIDENT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:41:58 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>PRESIDENT</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="badge number" id="5860DF9B-0202-8712-C84F-E8F5670CB4D3">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:42:12 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="E7A8C37F-3B6C-2C90-098F-4B9DF9C4605C">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:42:28 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="4AAD1380-D929-C939-BE0D-475EFC75F39A">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:42:37 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="car plan" id="C9388D29-5165-B1C5-6E63-BC0D917D48D9">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:42:45 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23A3E85F-0ACA-E35A-06FA-7CC537D83EE6" name="PRESIDENT PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:42:26 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5860DF9B-0202-8712-C84F-E8F5670CB4D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

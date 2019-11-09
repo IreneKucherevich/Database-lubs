@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35010704-A18E-F678-2F50-CEA470C1427B" name="IN_HOUSE_TRAINER">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 08:12:20 UTC</createdTime>
+<generatorID>80506795-7688-58A9-C55D-D04C2A7F8C55</generatorID>
+<ownerDesignName>taks_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CCB705DC-87AD-8EFB-AAAA-42C75A9335AD">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 08:12:20 UTC</createdTime>
+<generatorID>90DD3E95-1FA4-B096-2A95-CCF617CF6A19</generatorID>
+<ownerDesignName>taks_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_Name" id="9BA25EA9-035B-D0BE-4F37-2188CA35659A">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 08:12:20 UTC</createdTime>
+<generatorID>6B1A4F43-9449-A233-2A6D-AEB85A49AD9C</generatorID>
+<ownerDesignName>taks_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_Name" id="AEB8D250-9474-2104-E93C-70E9A0C513EA">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 08:12:20 UTC</createdTime>
+<generatorID>781BD2F8-0C9F-0E80-32CB-5A44A8901D92</generatorID>
+<ownerDesignName>taks_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FE4E872-EDF0-3FB4-B86B-813278C21A8B" name="IN_HOUSE_TRAINER_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 08:12:20 UTC</createdTime>
+<generatorID>7799C9D4-BB02-D2C4-26B7-75FA1CC95A0D</generatorID>
+<ownerDesignName>taks_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCB705DC-87AD-8EFB-AAAA-42C75A9335AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

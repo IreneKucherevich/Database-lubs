@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80506795-7688-58A9-C55D-D04C2A7F8C55" name="IN HOUSE TRAINER">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:58:09 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>IN HOUSE TRAINER</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="90DD3E95-1FA4-B096-2A95-CCF617CF6A19">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:58:29 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first Name" id="6B1A4F43-9449-A233-2A6D-AEB85A49AD9C">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:58:37 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last Name" id="781BD2F8-0C9F-0E80-32CB-5A44A8901D92">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:58:48 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7799C9D4-BB02-D2C4-26B7-75FA1CC95A0D" name="IN HOUSE TRAINER PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:58:33 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90DD3E95-1FA4-B096-2A95-CCF617CF6A19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

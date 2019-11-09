@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3082CE36-A985-5AE7-AEF2-906F23DFA8A3" name="DEPARTMENTv1">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:29:26 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>DEPARTMENT</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="72653E91-CBB5-788B-38BA-9F648C5B9669">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:40:26 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="B57297E2-2BF8-53A6-5340-199689A1334A">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:40:38 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="500EDC8C-B2ED-4FF6-E2D4-B62D0E03A00B" name="DEPARTMENTv1 PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:40:31 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72653E91-CBB5-788B-38BA-9F648C5B9669</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FE7E885-0A01-8BEE-8CB2-857C79E4F625" name="EMPLOYEEv1">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:28:26 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>EMPLOYEE</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="2D1314AE-FDA5-E454-BA3B-E66D16BD6D93">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:37:05 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="6C8420BB-78BF-4109-25C4-A50444B39807">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:32:34 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="B8B01265-0CFD-ACE2-01AF-F8B2FD9087D8">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:35:10 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hire Date" id="A88AED5D-3786-4F7A-2142-F33945039618">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:35:49 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="B374AFF1-FAEB-5FC6-B4E1-2001C02780BD">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:36:04 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commission" id="7C102BCB-8BF9-35BC-3FEC-D56154ED828C">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:36:21 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F2491CBC-3A4B-C3C1-58F8-89B719100805">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:40:33 UTC</createdTime>
+<generatorID>4DAC6B61-582B-F3C7-95AF-801129DA6DA6</generatorID>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<referedAttribute>72653E91-CBB5-788B-38BA-9F648C5B9669</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Job ID" id="CC50BAAB-12C8-21B7-5A16-E10229BB4AA8">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:41:18 UTC</createdTime>
+<generatorID>02165AF9-8518-ABBC-EAAB-9830F4608511</generatorID>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<referedAttribute>C42EED21-90FD-7DFA-642B-8600F7FC4DAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D686C66-083B-3593-7F4F-9ADAE82B3F5C" name="EMPLOYEEv1 PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:37:09 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D1314AE-FDA5-E454-BA3B-E66D16BD6D93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

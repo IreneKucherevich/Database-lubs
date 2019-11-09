@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F61EE00-EF38-FD57-3244-740DE7D04BBE" name="EVENT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>B4148760-5B52-9998-DD00-CDC3E5A2CAE9</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A2050B4A-2C9D-B0A1-3D02-6F8BF2A5DD69">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>79713FF9-DCE6-9C31-83F9-5B91275EE510</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="C0FBB345-2337-226C-EED4-88A2044217E7">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>EC209785-FA0D-5590-87E5-3216566B2887</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D689D424-8F18-4FEE-7131-F6B600BC3C60">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>A192BAF6-89BC-847F-2D7F-98BE395D0752</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="71C5565C-9A8B-BC50-6C9F-7E0421A81D85">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>35FCD85B-01F6-72BE-8AA8-FE8101ED476C</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="2F3C9764-CF70-1678-DB90-8BE33E789CD1">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>7EDF7294-C138-D41E-024E-17F93A4B72AD</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENUE_id" id="97BC29CB-9BBE-17AD-27CF-A1310252836F">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>0C9D15AC-E630-4ADC-3651-35E293AB3831</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9CD2F2B-17BA-4E6A-0BD3-8BF12C98A71F" referredColumn="348CA860-47CF-DC7C-39AB-9BF510D2FFB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A384524-FC26-C096-F889-48F9A526523F" name="EVENT_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>9CC0BD8A-80D2-49B8-22E2-21FF4DE7C1C8</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2050B4A-2C9D-B0A1-3D02-6F8BF2A5DD69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F37E12E5-32C8-516A-5217-2A866B3F3501" name="EVENT_VENUE_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:15:49 UTC</createdTime>
+<generatorID>E0F281C1-A895-F652-B39D-7259412F970B</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BC29CB-9BBE-17AD-27CF-A1310252836F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

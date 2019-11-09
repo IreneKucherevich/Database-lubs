@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDBFD700-33E0-AA4B-BB45-EB45A9C3B3A3" name="MANAGER">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>30487AB0-D231-E4ED-3F97-2D10AFCB2AD1</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="badge_number" id="2C36F86C-6301-EB7E-7CAD-60B5E9A24933">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>AF617110-ECD3-B48E-D8C9-4F28AF5DF33E</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DFC71B55-5D96-FC0A-EF2B-E7203E1D9535">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>D6CCF928-40D2-3A62-C1BC-67B84BED434C</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="A6963483-5F45-72A6-0F8E-7E60DECE321F">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>C2E3802E-9A85-715F-9E43-663FF33A12A3</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="budget" id="667961EA-23B5-D929-E2A4-EC3090D4210A">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>BC3F2291-64A3-C3E1-4236-4698C584FCF2</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECTOR_badge_number" id="8B550477-4332-41DC-A160-038CF932B492">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>35ABBEAD-EBB3-1C8E-CBF7-30C8B4269680</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7B459BA-9BB4-04D8-C22C-F171876CCB47" referredColumn="0AFBA6C2-990C-1A7F-E93F-6A877F42AFEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ADE5D41-FF60-1985-B414-612A0495EB56" name="MANAGER_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>9719CE09-6FE2-8764-EFDB-05382149BCEF</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C36F86C-6301-EB7E-7CAD-60B5E9A24933"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30E35333-7E8E-8BAB-2EDF-7800A84CA124" name="MANAGER_DIRECTOR_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 10:31:17 UTC</createdTime>
+<generatorID>E4F56CA9-A59B-FEF1-83B4-9C6E92D7D245</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B550477-4332-41DC-A160-038CF932B492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

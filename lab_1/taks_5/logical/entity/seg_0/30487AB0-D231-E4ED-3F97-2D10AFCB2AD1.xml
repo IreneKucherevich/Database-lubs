@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30487AB0-D231-E4ED-3F97-2D10AFCB2AD1" name="MANAGER">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:44:31 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>MANAGER</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="badge number" id="AF617110-ECD3-B48E-D8C9-4F28AF5DF33E">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:44:42 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="D6CCF928-40D2-3A62-C1BC-67B84BED434C">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:44:54 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="C2E3802E-9A85-715F-9E43-663FF33A12A3">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:45:01 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="budget" id="BC3F2291-64A3-C3E1-4236-4698C584FCF2">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:45:14 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="badge number1" id="35ABBEAD-EBB3-1C8E-CBF7-30C8B4269680">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:47:53 UTC</createdTime>
+<generatorID>E4F56CA9-A59B-FEF1-83B4-9C6E92D7D245</generatorID>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<referedAttribute>C21DBD57-AD1A-DFAE-8387-2AA7AE7A8BEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9719CE09-6FE2-8764-EFDB-05382149BCEF" name="MANAGER PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:44:53 UTC</createdTime>
+<ownerDesignName>taks_5</ownerDesignName>
+<engineerTo>
+<item key="19808B80-1A27-7463-7B2C-3D147E99007D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF617110-ECD3-B48E-D8C9-4F28AF5DF33E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

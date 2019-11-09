@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EA98379-6E03-0EFE-C2A0-189C25830D45" name="RECEIPT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:54:11 UTC</createdTime>
+<generatorID>566B7BBA-A23F-3346-E6FC-EB27AA6CF169</generatorID>
+<ownerDesignName>taks_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_STUDENT_ID" id="8F80AF1E-3316-CC6B-18DB-03B763CFCBBF">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:54:11 UTC</createdTime>
+<ownerDesignName>taks_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9F3CF4A-8F13-E1B8-22E4-30521FD105E3" referredColumn="3313A76E-B3B8-E2A5-82A8-9C021B9B194A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20504ED8-7EC8-FA15-7967-AA3383F73CEC" name="RECEIPT_STUDENT_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:54:11 UTC</createdTime>
+<generatorID>218FEE0D-0EEA-6DAA-215C-50086C4534D4</generatorID>
+<ownerDesignName>taks_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F80AF1E-3316-CC6B-18DB-03B763CFCBBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

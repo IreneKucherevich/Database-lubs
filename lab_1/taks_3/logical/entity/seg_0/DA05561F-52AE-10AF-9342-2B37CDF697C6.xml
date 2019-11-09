@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA05561F-52AE-10AF-9342-2B37CDF697C6" name="TRAINING EVENT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:57:10 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>TRAINING EVENT</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B5C9EC85-E9B8-B01E-9442-A836596BE138">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:57:29 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="E10E60FD-BA7D-52DD-4EB5-6CDBB0F36824">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:57:43 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="6CD84802-A5C4-38B5-785B-06887D1B0E6D">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:57:53 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="8CA364FD-83EA-F036-924E-FD04824FCB47">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:00:55 UTC</createdTime>
+<generatorID>E363281D-6624-6EFE-765A-C9D25C5EB25E</generatorID>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<referedAttribute>90DD3E95-1FA4-B096-2A95-CCF617CF6A19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="7100115D-E531-3A68-22F8-FFDF7462DE94">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:01:06 UTC</createdTime>
+<generatorID>66C8E54C-F979-C78A-5570-B3B8C8B17DE8</generatorID>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<referedAttribute>65522178-2BDC-3387-6E2E-6B98F7AF427E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62030A7C-DE3A-5761-DF37-831C24400944" name="TRAINING EVENT PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:57:33 UTC</createdTime>
+<ownerDesignName>taks_3</ownerDesignName>
+<engineerTo>
+<item key="E207BDB5-045F-362C-AA01-3CA656434386" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5C9EC85-E9B8-B01E-9442-A836596BE138</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="E0F281C1-A895-F652-B39D-7259412F970B">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:14:27 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<sourcePk>6554E8FB-C32F-8DA2-EDF4-193B6F1E07FB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>the venue for</nameOnSource>
+<nameOnTarget>held at</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7335A1CC-6E62-1AE6-9285-BE75E63B0001</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4148760-5B52-9998-DD00-CDC3E5A2CAE9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

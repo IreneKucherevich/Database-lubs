@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4148760-5B52-9998-DD00-CDC3E5A2CAE9" name="EVENT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:08:45 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>EVENT</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="79713FF9-DCE6-9C31-83F9-5B91275EE510">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:09:00 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cost" id="EC209785-FA0D-5590-87E5-3216566B2887">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:09:08 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A192BAF6-89BC-847F-2D7F-98BE395D0752">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:09:16 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="35FCD85B-01F6-72BE-8AA8-FE8101ED476C">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:09:23 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="7EDF7294-C138-D41E-024E-17F93A4B72AD">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:09:31 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="0C9D15AC-E630-4ADC-3651-35E293AB3831">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:14:27 UTC</createdTime>
+<generatorID>E0F281C1-A895-F652-B39D-7259412F970B</generatorID>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<referedAttribute>6E03C5D6-6FD1-58B8-0FE3-7FC77948AE22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CC0BD8A-80D2-49B8-22E2-21FF4DE7C1C8" name="EVENT PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:09:05 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79713FF9-DCE6-9C31-83F9-5B91275EE510</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

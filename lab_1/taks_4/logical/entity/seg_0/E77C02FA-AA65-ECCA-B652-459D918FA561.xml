@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E77C02FA-AA65-ECCA-B652-459D918FA561" name="PRIVATE HOME">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:11:11 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>7335A1CC-6E62-1AE6-9285-BE75E63B0001</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>PRIVATE HOME</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="accessibility" id="B37DAD6A-1FF7-B7EB-DED5-CC260302D1D5">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 07:11:27 UTC</createdTime>
+<ownerDesignName>taks_4</ownerDesignName>
+<engineerTo>
+<item key="A09C0ED6-DAD9-8CE1-E300-A9D0D9BE63A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

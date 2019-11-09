@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40C0888F-8CE3-8534-970D-2416D49FADAB" name="JOB">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:29:49 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Job ID" id="C42EED21-90FD-7DFA-642B-8600F7FC4DAC">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:40:56 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="DECD97B8-F05B-0CE6-FA94-2F03A9B658DD">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:41:20 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Max Salary" id="4A5183EC-6725-BE64-62A4-45388A1259B0">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:41:31 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Min Salary" id="1A1A5799-87E4-CD8A-A167-44FE40FA70AB">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:41:42 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B7DAF89-C0F6-3D2F-39F3-F613A8CC56F6" name="JOB PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-09-17 06:41:07 UTC</createdTime>
+<ownerDesignName>taks_1</ownerDesignName>
+<engineerTo>
+<item key="B250C0F1-FAA4-F745-237F-DF1E85987382" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C42EED21-90FD-7DFA-642B-8600F7FC4DAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
