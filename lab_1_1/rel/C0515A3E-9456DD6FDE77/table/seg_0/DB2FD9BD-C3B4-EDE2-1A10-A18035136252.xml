@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB2FD9BD-C3B4-EDE2-1A10-A18035136252" name="REPORT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>B09E9C14-507B-997E-A5CE-1A5676A8138B</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="number" id="4B8874BD-87A2-647E-70A6-96B6DD7E49C7">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>8E08C90E-B8D6-CDA7-19CE-0D17A4A5B302</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desctiption" id="96C7D5CE-2845-C703-F8BC-2F854DA14B31">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>BBDE494C-2878-1164-B6C5-549C346B17B3</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D07417A-5490-F75A-BD02-44C865BD7AE2" name="REPORT_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>26474A0E-87FD-8353-2B69-2730EA972984</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B8874BD-87A2-647E-70A6-96B6DD7E49C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93F92E3B-08CA-B424-957C-6BAFCBE38B2A" name="STUDENT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>1EF3B000-AB65-CEC0-9BFB-565CEFE759A5</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="number_of_book" id="B5F8E92D-C798-8930-BD6D-10CCDFC77DE3">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>CD8E8AE8-0216-B6F2-95D4-D2E46D0AFF6B</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="A0CA9B25-C2E0-90C7-8510-D4A058F03490">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>8253A06E-6BD8-920C-12B9-166543D67B35</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="5620A6CC-E423-A705-CC67-0A45C6F19386">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>BD5F29A8-5899-BFA3-7C56-96546D2C1612</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMESTER_number" id="EBC79A70-24C1-736F-AA1F-87A5D16E3DE6">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>735C16AD-1436-A76E-C631-39569C82860A</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59966F4D-B735-8731-DA56-801A43B6DE10" referredColumn="8D63E738-49E6-0D3B-B672-EFD806B9C270"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF965A05-63F5-78FE-7163-701FC12DFB06" name="STUDENT_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>7B08CFC3-1012-CCF2-170A-83C6313377B9</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F8E92D-C798-8930-BD6D-10CCDFC77DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C5F69D-0114-4D0D-6D78-FB950F23A779" name="STUDENT_SEMESTER_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>7438A6FA-9A23-89EC-F481-E3394D70E4D0</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBC79A70-24C1-736F-AA1F-87A5D16E3DE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

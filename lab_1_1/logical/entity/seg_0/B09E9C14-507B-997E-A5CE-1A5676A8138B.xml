@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B09E9C14-507B-997E-A5CE-1A5676A8138B" name="REPORT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:47:57 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>REPORT</synonym>
+<synonymToDisplay>REPORT</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="number" id="8E08C90E-B8D6-CDA7-19CE-0D17A4A5B302">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:48:12 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desctiption" id="BBDE494C-2878-1164-B6C5-549C346B17B3">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:48:27 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26474A0E-87FD-8353-2B69-2730EA972984" name="REPORT PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:48:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E08C90E-B8D6-CDA7-19CE-0D17A4A5B302</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

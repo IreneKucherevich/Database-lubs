@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C26DF442-8C88-FC05-39A3-7E43EE0A6BAB" name="SUBJECT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>744C3BEC-D825-82AA-846A-0BD386A96558</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="F1D01609-0CD3-3AD2-0BDC-216DBF3A40F5">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>63BE9A81-21F9-1BCB-2449-1C88E9D32EE6</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hours" id="04E97933-C361-7C17-CC75-72FA34D6BC14">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>AFDCD1E1-4D53-59CA-6C45-D97CA82FBF50</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83F3C67B-B4FE-7EB3-F604-76509081CE2D" name="SUBJECT_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>E7A4A86E-0A58-0957-F051-F151517D942B</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1D01609-0CD3-3AD2-0BDC-216DBF3A40F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

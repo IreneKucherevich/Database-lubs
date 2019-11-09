@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FD12D11-EEFA-51D5-B510-2A1B4311B445" name="PASSING">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:48:41 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>PASSING</synonym>
+<synonymToDisplay>PASSING</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3A6B005F-0FA2-53D7-9CEE-B4392B167EF2">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:48:52 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="3B529DE4-F56B-AAAF-5058-64DD85ECEBA7">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:49:11 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mark" id="11908A79-C937-7C17-040D-6A6559784BF4">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:49:22 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number of book" id="6ABD3AC4-97CC-770A-5CD7-45E66B286A93">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:50:44 UTC</createdTime>
+<generatorID>0FF2986D-1AE1-927F-8DA8-65A835CA0A98</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<referedAttribute>CD8E8AE8-0216-B6F2-95D4-D2E46D0AFF6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="E27888E5-3C87-43C2-AE99-96BE2E10D6B7">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:51:06 UTC</createdTime>
+<generatorID>F0AE5954-1167-B259-88CB-4CF337839FDE</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<referedAttribute>63BE9A81-21F9-1BCB-2449-1C88E9D32EE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A944073-9FA4-8177-433C-DD7F40984DCA" name="PASSING PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:49:09 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C0515A3E-0536-47F2-5453-9456DD6FDE77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A6B005F-0FA2-53D7-9CEE-B4392B167EF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

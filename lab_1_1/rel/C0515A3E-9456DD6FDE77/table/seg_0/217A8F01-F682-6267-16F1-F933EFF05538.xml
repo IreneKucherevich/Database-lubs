@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="217A8F01-F682-6267-16F1-F933EFF05538" name="REPORT-SUBJECT">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPORT_number" id="5E6D948B-76BB-5810-66C0-7E3C018A2B9B">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD17F630-3D5C-846D-1027-D3FFDD289E87" referredColumn="4B8874BD-87A2-647E-70A6-96B6DD7E49C7"/>
+</associations>
+</Column>
+<Column name="SUBJECT_name" id="DAAFC72F-5F4F-FA49-8F8B-18F813AF8E23">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9A35B1F-51BC-0D7A-10ED-E15DAB7AB3B2" referredColumn="F1D01609-0CD3-3AD2-0BDC-216DBF3A40F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B48182D9-CCB5-CBE5-0FFA-4C5415214D50" name="REPORT-SUBJECT_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E6D948B-76BB-5810-66C0-7E3C018A2B9B"/>
+<colUsage columnID="DAAFC72F-5F4F-FA49-8F8B-18F813AF8E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A080127A-FE62-8470-970A-2E1B9E8C419E" name="REPORT-SUBJECT_REPORT_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>0D40BEC8-2A52-AA2C-17FC-99D47B615CB5</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E6D948B-76BB-5810-66C0-7E3C018A2B9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5E5422C-3FE7-9492-648C-59BF9E7DF7ED" name="REPORT-SUBJECT_SUBJECT_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>0D40BEC8-2A52-AA2C-17FC-99D47B615CB5</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAAFC72F-5F4F-FA49-8F8B-18F813AF8E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

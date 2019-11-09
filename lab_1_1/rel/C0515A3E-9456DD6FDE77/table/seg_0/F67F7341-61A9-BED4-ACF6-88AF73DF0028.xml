@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F67F7341-61A9-BED4-ACF6-88AF73DF0028" name="PASSING">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>8FD12D11-EEFA-51D5-B510-2A1B4311B445</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="10284F5E-42C9-5999-B1DE-EC35650F0F0C">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>3A6B005F-0FA2-53D7-9CEE-B4392B167EF2</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="C3A2B69C-1219-3180-A33C-B5574503C232">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>3B529DE4-F56B-AAAF-5058-64DD85ECEBA7</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mark" id="EAA64D52-C436-F101-44B5-4E1B5EAEFE81">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>11908A79-C937-7C17-040D-6A6559784BF4</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_number_of_book" id="254FF0C2-44EB-F86E-2100-64B1B867B26F">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>6ABD3AC4-97CC-770A-5CD7-45E66B286A93</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="638689BA-678B-31EA-6A68-23E0BC6D3083" referredColumn="B5F8E92D-C798-8930-BD6D-10CCDFC77DE3"/>
+</associations>
+</Column>
+<Column name="SUBJECT_name" id="2FAE4BD4-2D4B-9B41-C332-FA21CF4D5C0F">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>E27888E5-3C87-43C2-AE99-96BE2E10D6B7</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42FE44CE-080A-B786-6046-55D478CEB5FA" referredColumn="F1D01609-0CD3-3AD2-0BDC-216DBF3A40F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F4C73CF-5B0D-AF24-AC28-505E4108CABC" name="PASSING_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>7A944073-9FA4-8177-433C-DD7F40984DCA</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10284F5E-42C9-5999-B1DE-EC35650F0F0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3095D02B-2AAE-443F-E7BD-6A5B34DFD703" name="PASSING_STUDENT_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>0FF2986D-1AE1-927F-8DA8-65A835CA0A98</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="254FF0C2-44EB-F86E-2100-64B1B867B26F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="420570C5-C345-B9B3-B923-460C09B3582A" name="PASSING_SUBJECT_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>F0AE5954-1167-B259-88CB-4CF337839FDE</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FAE4BD4-2D4B-9B41-C332-FA21CF4D5C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

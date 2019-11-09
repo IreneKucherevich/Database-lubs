@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E46D208-6FFF-3BC6-643D-2695685AD9EA" name="SUBJECT-SEMESTER">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUBJECT_name" id="75CD8CDF-C106-E33E-BA83-C848A741702D">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91FB42D4-A6A6-C50A-5AE7-95B174689DD2" referredColumn="F1D01609-0CD3-3AD2-0BDC-216DBF3A40F5"/>
+</associations>
+</Column>
+<Column name="SEMESTER_number" id="B580908F-6D74-1B12-0F09-E1A93AC1AE12">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58A346A0-E1D2-8117-93C7-F0A8EAD26C75" referredColumn="8D63E738-49E6-0D3B-B672-EFD806B9C270"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEE52799-6557-222F-C2DC-9512A887699B" name="SUBJECT-SEMESTER_PK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75CD8CDF-C106-E33E-BA83-C848A741702D"/>
+<colUsage columnID="B580908F-6D74-1B12-0F09-E1A93AC1AE12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24062ADF-0B32-347E-92F4-4AB06611A788" name="SUBJECT-SEMESTER_SUBJECT_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>54AD17C8-0D8B-F10C-8367-BD40D88599ED</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75CD8CDF-C106-E33E-BA83-C848A741702D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BBA7DD6-5F23-EB3F-A1B2-2C17487EF646" name="SUBJECT-SEMESTER_SEMESTER_FK">
+<createdBy>Ира</createdBy>
+<createdTime>2019-10-08 10:54:36 UTC</createdTime>
+<generatorID>54AD17C8-0D8B-F10C-8367-BD40D88599ED</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B580908F-6D74-1B12-0F09-E1A93AC1AE12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
